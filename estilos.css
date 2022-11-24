@@ -1,0 +1,28 @@
+
+*{
+    background-color: rgb(242,248,255);
+}
+
+h1{
+
+    color: rgb(15,65,137);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cuadroTexto{
+
+    text-align: center;
+    height: 50px;
+    background-image: url("./Imagenes/10.png");
+    background-size: contain;
+}
+
+#cuadroImagen{
+
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: rgb(15,65,137);
+    background-color: rgb(135,160,196);
+}
