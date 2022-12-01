@@ -3,12 +3,105 @@
     background-color: rgb(242,248,255);
 }
 
+.grid_Container_columns{
+    border: 1px dotted blue;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    padding: 8px;
+}
+.grid_Container_columns>div{
+    display: flex;
+    height: 280px;
+    width: 300px;
+    padding: 16px;
+}
+.container2{
+    display: contents;
+    align-items: stretch;
+    align-self: center;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+}
+.container>div{
+    width: 150px;
+    margin: 10px;
+}
+
+input{
+    width: 180px;
+    height: 30px;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+input:focus{
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    width: 250px;
+}
+li a {
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: rgb(15,65,137);
+    color: white;
+}
+
+.container03{
+    font-style: italic;
+    font-size: 35px;
+}
+.container03::before{
+    content: '';
+    background-image: url(./Imagenes/10.png);
+    position: absolute;
+    background-size: cover;
+    width: 90vw;
+    height: 15vh;
+    opacity: 0.5;
+}
+
+.boton1{
+    color: white;
+    background-color: rgb(255,121,63);
+    border-color: rgb(255,121,63);
+    border-radius: 5px;
+}
+.boton1:hover{
+    color: white;
+    border-color: #552815;
+    background-color: #552815;
+}
+
 h1{
 
     color: rgb(15,65,137);
-    text-align: center;
+    /*text-align: center;*/
     text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h2{
+
+    color: rgb(15,65,137);
+    /*text-align: center;*/
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .cuadroTexto{
