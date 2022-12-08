@@ -1,0 +1,84 @@
+*{
+    background-color: rgb(242,248,255);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    width: 250px;
+}
+li a {
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: rgb(15,65,137);
+    color: white;
+}
+
+.grid_Container_columns{
+    border: 1px dotted blue;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    padding: 8px;
+}
+.grid_Container_columns>div{
+    display: flex;
+    height: 280px;
+    width: 300px;
+    padding: 16px;
+}
+
+.container>div{
+    width: 150px;
+    margin: 10px;
+}
+
+input{
+    width: 180px;
+    height: 30px;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+input:focus{
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+h1{
+
+    color: rgb(15,65,137);
+    /*text-align: center;*/
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h2{
+
+    color: rgb(15,65,137);
+    /*text-align: center;*/
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.cuadroTexto{
+
+    text-align: center;
+    height: 50px;
+    background-image: url("./Imagenes/10.png");
+    background-size: contain;
+}
+
+#cuadroImagen{
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: rgb(15,65,137);
+    background-color: rgb(135,160,196);
+}

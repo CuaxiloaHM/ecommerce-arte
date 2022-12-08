@@ -1,0 +1,37 @@
+body{
+    .btnEnviar{
+        @include btnBase ($colorNaranja, 45px);
+    }
+
+    .btnVer{
+        @include btnBase ($colorNaranja, 80px);
+    }
+
+    .btnCancelar{
+        @include btnBase ($colorCafe, 60px);
+    }
+
+    .container2{
+        @include containerBase (contents, stretch);
+        align-self: center;
+    }
+
+    .container{
+        @include containerBase (flex, stretch);
+    }
+
+    .titulo1{
+        font-size: 30px;
+        border: 1px solid;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        background: $colorNaranja;
+    }
+
+    .titulo2{
+        @extend.titulo1;
+        background: $colorAzulMedio;
+    }
+
+}

@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li {
+  float: left;
+  width: 250px; }
+
+li a {
+  text-align: center;
+  padding: 14px 16px; }
+
+li a:hover {
+  background-color: #0f4189;
+  color: white; }
+
+p {
+  text-align: justify; }
+
+body .btnEnviar {
+  background-color: #ff793f;
+  padding: 10px;
+  margin: 5px;
+  height: 15px;
+  width: 45px;
+  border-radius: 5px;
+  color: white; }
+
+body .btnVer {
+  background-color: #ff793f;
+  padding: 10px;
+  margin: 5px;
+  height: 15px;
+  width: 80px;
+  border-radius: 5px;
+  color: white; }
+
+body .btnCancelar {
+  background-color: #552815;
+  padding: 10px;
+  margin: 5px;
+  height: 15px;
+  width: 60px;
+  border-radius: 5px;
+  color: white; }
+
+body .container2 {
+  display: contents;
+  align-items: stretch;
+  align-self: center; }
+
+body .container {
+  display: flex;
+  align-items: stretch; }
+
+body .titulo1, body .titulo2 {
+  font-size: 30px;
+  border: 1px solid;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background: #ff793f; }
+
+body .titulo2 {
+  background: #0f4189; }

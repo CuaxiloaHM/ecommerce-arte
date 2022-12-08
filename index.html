@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>CuaxiloaSP</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
 </head>
+
 <body>
-    <h1>Hola Mundo</h1>
-</body>
+
+    <header>
+        <div class="container">
+            <div style="flex-grow: 5; width: 100px;">
+                <h2>Artista Digital</h2>
+                <h1>CuaxiloaSP</h1>
+            </div>
+            <div style="flex-grow: 5;align-self: center;"><img src= "Imagenes/LogoF.png" alt="Logo" width="150" height="150"></div>
+            <div style="flex-grow: 5;"><input type="Búsqueda" placeholder="Escribe aquí..."><span class="material-symbols-outlined">search</span></div>
+            <div style="flex-grow: 5;"><span class="material-symbols-outlined">shopping_cart</span> <span class="material-symbols-outlined">exposure_plus_1</span></div>
+        </div>
+        <ul>
+            <li><span class="material-symbols-outlined">home</span><a href="./index.html">Incio</a></li>
+            <li><span class="material-symbols-outlined">feed</span><a href="./novedades.html">Novedades</a></li>
+            <li><span class="material-symbols-outlined">groups</span><a href="./acercade.html">Acerca de</a></li>
+            <li><span class="material-symbols-outlined">mail</span><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    
+    <main>
+
+        <h2 class="titulo1">Acerca de Mí</h2>
+        <div class="container">
+            <div style="flex-grow: 1;"><img src="./Imagenes/6.jpg" alt="Foto" width="200px" height="200px"></div>
+            <div style="flex-grow: 5;align-self: center;"><p>Hola Mundo, Soy Hector Cuaxiloa, artista digital interesado en ilustrar animales y naturaleza, aunque mis intereses van más allá de estas dos áreas. Me gusta aprender todo lo posible y seguir practicando mis habilidades, espero que te guste mi arte y te animes a comisionar.</p></div>
+        </div>
+
+        <h2 class="titulo2">Servicios y Productos</h2>
+        <p>Dentro de los servicios que me pueden pedir se encuentran: Dibujo o ilustración, puede ser solo en boceto, línea limpia, a color, con fondo y completa, se cobra según la dificultad y cantidad de personajes. Tambien se crean animaciones, storyboards y diseños de marca, a continuación algunos ejemplos:</p>
+
+        <h2 class="titulo1">Gallería</h2>
+        <div class="grid_Container_columns">
+            <div><img src="./Imagenes/4.png" alt="Dibujo 1"></div>
+            <div><img src="./Imagenes/5.png" alt="Dibujo 2"></div>
+            <div><img src="./Imagenes/2.png" alt="Dibujo 3"></div>
+            <div><img src="./Imagenes/9.png" alt="Dibujo 4"></div>
+        </div>
+        
+        <div class="btnVer">Ver mas...</div>
+
+        <h2 class="titulo2">Contacto</h2>
+        <p>¡Mándame un mensaje!, puedes escribirme e intentaré contestarte lo más pronto posible. No olvides agregar la razón de tu correo y pedir la oportunidad de mandar referencias o personajes originales.</p>
+        <div class="container2">
+            <div style="height: 50px;">
+                <label for ="">Nombre:</label>
+                <input placeholder ="Nombre" type="text">
+                <label for ="">Apellido:</label>
+                <input placeholder ="Email" type="email" required>
+            </div>
+            <div style="height: 180px;">
+                <label for ="">Mensaje:</label>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div style="height: 50px">
+                <div class="btnEnviar">Enviar</div>
+                <div class="btnCancelar">Cancelar</div>
+            </div>
+        </div>
+
+        <h2 class="titulo1">Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.2318516563303!2d-98.2029840760569!3d19.038304612852443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0c2f9ccb22f%3A0x47cc5e7172c45939!2sParque%20del%20Carmen%2C%20C.%2016%20de%20Septiembre%2C%20El%20Carmen%2C%2072530%20Puebla%20de%20Zaragoza%2C%20Puebla!5e0!3m2!1ses-419!2smx!4v1668717919753!5m2!1ses-419!2smx" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+
+    <footer>
+        <p>Todos los dibujos son hechos por mí, los personajes le pertenecen a sus respectivos creadores.</p>
+    </footer>
+
+</body>   
 </html>

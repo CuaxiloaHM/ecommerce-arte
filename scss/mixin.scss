@@ -1,0 +1,14 @@
+@mixin containerBase($display, $align){
+    display: $display;
+    align-items: $align;
+}
+
+@mixin btnBase($colorFondo, $width){
+    background-color: $colorFondo;
+    padding: 10px;
+    margin: 5px;
+    height: 15px;
+    width: $width;
+    border-radius: 5px;
+    color: white;
+}
